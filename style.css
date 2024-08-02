@@ -1,0 +1,30 @@
+body{
+    position: relative;
+    top: 350px;
+    left: 900px;
+    background-color: rgb(69, 69, 235);
+}
+.cont{
+    position: relative;
+    left: 15px;
+    top: 10px;
+    box-shadow:  8px;
+}
+.plus{
+    background-color: dimgrey;
+    box-shadow: 0 0 8px;
+    transition: 5s;
+}
+.plus :hover{
+    transform: scale(5.5);
+}
+.minus{
+    background-color: dimgrey;
+    box-shadow: 0 0 8px;
+    position: relative;
+    left: 5px;
+    transition: 5s;
+}
+.minus :hover{
+    transform: rotate(1.1);
+}
